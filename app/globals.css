@@ -10,6 +10,42 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-bone: #f0ebe1;
+  --color-redorange: #e81900;
+  --color-mediciblue: #417777;
+  --color-palelemon: #417777;
+  --color-isabella: #417777;
+
+  --font-size-page: 36px;
+  --font-size-section: 32px;
+  --font-size-card: 24px;
+  --font-size-common: 16px;
+  --font-size-support: 14px;
+  --font-size-detail: 12px;
+
+  --lh-page: 44px;
+  --lh-section: 36px;
+  --lh-card: 28px;
+  --lh-common: 20px;
+  --lh-support: 18px;
+  --lh-detail: 16px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --font-w-xxb: 700;
+  --font-w-xb: 600;
+  --font-w-b: 500;
+  --font-w-r: 400;
+  --font-w-l: 300;
+  --font-w-xl: 200;
+  --font-w-xxl: 100;
 }
 
 @media (prefers-color-scheme: dark) {
