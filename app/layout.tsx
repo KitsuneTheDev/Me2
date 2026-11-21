@@ -18,11 +18,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`h-full w-full antialiased ${ibm.variable}`}
     >
-      <body className={`h-full grid grid-rows-[auto_1fr] grid-cols-[auto_1fr] `}>
-        <header className="col-span-2 min-h-16" >
+      <body className={`h-full grid grid-rows-[auto_1fr_auto] grid-cols-1 md:grid-rows-[auto_1fr] md:grid-cols-[auto_1fr] `}>
+        <header className="md:col-span-2 min-h-16" >
           <Header />
         </header>
-        <nav className="min-w-16">
+        <nav className="min-w-16 order-3 md:order-0">
           <Navbar />
         </nav>
         <main className="overflow-y-auto">
