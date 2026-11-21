@@ -18,17 +18,17 @@
   --color-isabella: #c3a55c;
 
   --text-page: 36px;
-  --text-page--line-height: 44px;
+  --spacing-page: 44px;
   --text-section: 32px;
-  --text-section--line-height: 40px;
+  --spacing-section: 40px;
   --text-card: 24px;
-  --text-card--line-height: 32px;
+  --spacing-card: 32px;
   --text-common: 16px;
-  --text-common--line-height: 24px;
+  --spacing-common: 24px;
   --text-support: 14px;
-  --text-supprot--line-height: 22px;
+  --spacing-support: 22px;
   --text-detail: 12px;
-  --text-detail--line-height: 20px;
+  --spacing-detail: 20px;
 
   --space-1: 4px;
   --space-2: 8px;
